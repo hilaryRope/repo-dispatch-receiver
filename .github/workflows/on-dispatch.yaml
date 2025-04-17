@@ -3,6 +3,7 @@ name: Handle Test Dispatch
 on:
   repository_dispatch:
     types: [test-dispatch]
+  workflow_dispatch:
 
 jobs:
   log:
